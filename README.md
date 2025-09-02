@@ -25,6 +25,9 @@ This repository showcases my AI/ML freelance projects, demonstrating skills in m
 ## Future Improvements
 - Add more diverse training data.
 - Fine-tune hyperparameters for better accuracy.
+## Future Plans
+- Expand dataset for sentiment analysis.
+- Develop more AI tools for freelance clients.
 
 ## License
 © 2025 OrionAI77
