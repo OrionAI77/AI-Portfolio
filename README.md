@@ -1,32 +1,30 @@
-# AI-Portfolio
-My AI/ML Freelance Projects
+# OrionAI77/AI-Portfolio: My AI/ML Freelance Projects
 
-Initial project: Iris dataset classifier with 97% accuracy using scikit-learn. Ready for client ML tasks!
-Basic chatbot with rule-based, case-insensitive responses—ready for client apps!
-House price predictor using linear regression with R^2: 1.00—ready for client real estate tasks!
-Text-to-image category predictor using RandomForest and TF-IDF—interactive, multi-category, continuous input loop, 100% test accuracy, 98% cross-validation, ready for client image tasks!
-# Sentiment Analysis Model with Orion AI
+This repository showcases my AI/ML freelance projects, demonstrating skills in machine learning and natural language processing.
 
-This project implements a sentiment analysis model using BERT, developed by Orion AI (built by xAI), trained on a custom dataset of 50 reviews to classify text as positive, negative, or neutral.
+## Projects
 
-## Features
-- Trained for 10 epochs with early stopping and cosine learning rate scheduling.
-- Achieves an evaluation loss of 0.7509.
-- Saved model available for inference.
-- Logo inspired by the Orion constellation, reflecting intelligence and exploration.
+### 1. Iris Dataset Classifier
+- **Description:** A classifier achieving 97% accuracy using scikit-learn on the Iris dataset.
+- **Status:** Ready for client ML tasks!
+
+### 2. Sentiment Analysis with Orion AI
+- **Description:** A BERT-based sentiment analysis model trained on a custom dataset of 50 reviews, classifying text as positive, negative, or neutral. Achieves an evaluation loss of 0.7509.
+- **Features:** Trained for 10 epochs with early stopping and cosine learning rate scheduling. Saved model available for inference.
+- **Setup:** Install dependencies with `pip install -r requirements.txt` and run `python sentiment_analyzer.py`. Test with input, "exit" to quit, or "save" to export.
+- **Results:** Eval loss dropped from 1.1686 to 0.7509 (see `combined_training_log.txt`). Sample prediction: "this product is amazing" -> positive.
 
 ## Setup
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the script: `python sentiment_analyzer.py`
-3. Test with input: Type a review, "exit" to quit, or "save" to export.
+1. Clone the repo: `git clone https://github.com/OrionAI77/AI-Portfolio.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run projects as described.
 
-## Results
-- Eval Loss Trend: Dropped from 1.1686 to 0.7509 over 10 epochs (see `combined_training_log.txt`).
-- Sample Prediction: "this product is amazing" -> positive
+## Logo
+![Orion AI Logo](orion_ai_logo.png)
 
 ## Future Improvements
 - Add more diverse training data.
 - Fine-tune hyperparameters for better accuracy.
 
-## Logo
-![Orion AI Logo](link-to-logo-if-uploaded)
+## License
+© 2025 OrionAI77
