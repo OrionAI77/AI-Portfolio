@@ -1,5 +1,7 @@
 # OrionAI77/AI-Portfolio: My AI/ML Freelance Projects
 
+Latest: Fully local daily Shorts bot for passive income content → [PassiveIncomeBot](PassiveIncomeBot/)
+
 This repository showcases my AI/ML freelance projects, demonstrating skills in machine learning and natural language processing.
 
 ## Projects
@@ -14,11 +16,15 @@ This repository showcases my AI/ML freelance projects, demonstrating skills in m
 - **Setup:** Install dependencies with `pip install -r requirements.txt` and run `python sentiment_analyzer.py`. Test with input, "exit" to quit, or "save" to export.
 - **Results:** Eval loss dropped from 1.1686 to 0.7509 (see `combined_training_log.txt`). Sample prediction: "this product is amazing" -> positive.
 
+## Additional Projects
+
+Passive Income Shorts Bot
+A fully local, zero-cost daily generator for faceless YouTube Shorts in the personal finance & investing niche.
 ## Passive Income Shorts Bot
 
 A fully local, zero-cost daily generator for faceless YouTube Shorts in the personal finance & investing niche.
 
-**Folder**: [PassiveIncomeBot](PassiveIncomeBot/)  
+**Folder**: [Folder: Folder: [PassiveIncomeBot](PassiveIncomeBot/) 
 **Status**: Working (v1.0 – text frames + spiced visuals + natural voiceover)
 
 **Core features**
