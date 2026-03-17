@@ -1,8 +1,5 @@
 # OrionAI77/AI-Portfolio: My AI/ML Freelance Projects
 
-Latest: Fully local daily Shorts bot for passive income content → **Folder**: [PassiveIncomeBot](https://github.com/OrionAI77/AI-Portfolio/tree/main/PassiveIncomeBot)  
-**Main script**: [generate_daily_short.py]([https://github.com/OrionAI77/AI-Portfolio/blob/main/PassiveIncomeBot/generate_daily_short.py](https://github.com/OrionAI77/AI-Portfolio/blob/main/generate_daily_short.py))
-
 This repository showcases my AI/ML freelance projects, demonstrating skills in machine learning and natural language processing.
 
 ## Projects
@@ -21,8 +18,7 @@ This repository showcases my AI/ML freelance projects, demonstrating skills in m
 
 **Passive Income Shorts Bot**  
 A fully local, zero-cost daily generator for faceless YouTube Shorts in the personal finance & investing niche.
-
-**Folder**: [PassiveIncomeBot](PassiveIncomeBot/)  
+  
 **Status**: Working (v1.0 – text frames + spiced visuals + natural voiceover)
 
 **Core features**  
