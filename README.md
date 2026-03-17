@@ -14,6 +14,30 @@ This repository showcases my AI/ML freelance projects, demonstrating skills in m
 - **Setup:** Install dependencies with `pip install -r requirements.txt` and run `python sentiment_analyzer.py`. Test with input, "exit" to quit, or "save" to export.
 - **Results:** Eval loss dropped from 1.1686 to 0.7509 (see `combined_training_log.txt`). Sample prediction: "this product is amazing" -> positive.
 
+## Passive Income Shorts Bot
+
+A fully local, zero-cost daily generator for faceless YouTube Shorts in the personal finance & investing niche.
+
+**Folder**: [PassiveIncomeBot](PassiveIncomeBot/)  
+**Status**: Working (v1.0 – text frames + spiced visuals + natural voiceover)
+
+**Core features**
+- AI-generated scripts using deepseek-r1:32b (via Ollama)
+- Clean, big readable text overlays with dark cyber-finance aesthetic
+- Natural male voiceover (Microsoft edge-tts)
+- One-command manual run or fully automatic via Windows Task Scheduler
+
+**Tech stack**
+- Ollama + langchain-ollama
+- edge-tts (voice)
+- FFmpeg (video assembly)
+- Pillow (frame generation)
+
+**Quick run (manual)**
+```powershell
+cd "C:\Users\along\Downloads\ComfyUI_windows_portable_nvidia\PassiveIncomeBot"
+python generate_daily_short.py
+
 ## Setup
 1. Clone the repo: `git clone https://github.com/OrionAI77/AI-Portfolio.git`
 2. Install dependencies: `pip install -r requirements.txt`
