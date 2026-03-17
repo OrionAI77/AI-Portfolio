@@ -38,23 +38,38 @@ A fully local, zero-cost daily generator for faceless YouTube Shorts in the pers
 
 **Quick run (manual)**  
 ```powershell
-cd "C:\Users\along\Downloads\ComfyUI_windows_portable_nvidia\PassiveIncomeBot"
-python generate_daily_short.py
+Press Enter for default topic or type your own.
+Daily auto-run (Task Scheduler)
 
-## Setup
-1. Clone the repo: `git clone https://github.com/OrionAI77/AI-Portfolio.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run projects as described.
+Trigger: Daily at 8:00 AM
+Program: python
+Arguments: "C:\Users\along\Downloads\ComfyUI_windows_portable_nvidia\PassiveIncomeBot\generate_daily_short.py"
+Start in: same folder
 
-## Logo
-![Orion AI Logo](orion_ai_logo.png)
+Future plans
 
-## Future Improvements
-- Add more diverse training data.
-- Fine-tune hyperparameters for better accuracy.
-## Future Plans
-- Expand dataset for sentiment analysis.
-- Develop more AI tools for freelance clients.
+Integrate real Flux.1 images for pro-level visuals
+Auto-post finished videos to X @FukUrselv
+Add looping background animations or video overlays
 
-## License
+This bot is 100% offline/local — no cloud APIs, no ongoing costs.
+Setup
+
+Clone the repo: git clone https://github.com/OrionAI77/AI-Portfolio.git
+Install dependencies: pip install -r requirements.txt
+Run projects as described.
+
+Logo
+<img src="orion_ai_logo.png" alt="Orion AI Logo">
+Future Improvements
+
+Add more diverse training data.
+Fine-tune hyperparameters for better accuracy.
+
+Future Plans
+
+Expand dataset for sentiment analysis.
+Develop more AI tools for freelance clients.
+
+License
 © 2025 OrionAI77
