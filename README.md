@@ -6,40 +6,37 @@ This repository showcases my AI/ML freelance projects, demonstrating skills in m
 
 ## Projects
 
-### 1. Iris Dataset Classifier
-- **Description:** A classifier achieving 97% accuracy using scikit-learn on the Iris dataset.
-- **Status:** Ready for client ML tasks!
+1. **Iris Dataset Classifier**
+   - Description: A classifier achieving 97% accuracy using scikit-learn on the Iris dataset.
+   - Status: Ready for client ML tasks!
 
-### 2. Sentiment Analysis with Orion AI
-- **Description:** A BERT-based sentiment analysis model trained on a custom dataset of 50 reviews, classifying text as positive, negative, or neutral. Achieves an evaluation loss of 0.7509.
-- **Features:** Trained for 10 epochs with early stopping and cosine learning rate scheduling. Saved model available for inference.
-- **Setup:** Install dependencies with `pip install -r requirements.txt` and run `python sentiment_analyzer.py`. Test with input, "exit" to quit, or "save" to export.
-- **Results:** Eval loss dropped from 1.1686 to 0.7509 (see `combined_training_log.txt`). Sample prediction: "this product is amazing" -> positive.
+2. **Sentiment Analysis with Orion AI**
+   - Description: A BERT-based sentiment analysis model trained on a custom dataset of 50 reviews, classifying text as positive, negative, or neutral. Achieves an evaluation loss of 0.7509.
+   - Features: Trained for 10 epochs with early stopping and cosine learning rate scheduling. Saved model available for inference.
+   - Setup: Install dependencies with `pip install -r requirements.txt` and run `python sentiment_analyzer.py`. Test with input, "exit" to quit, or "save" to export.
+   - Results: Eval loss dropped from 1.1686 to 0.7509 (see combined_training_log.txt). Sample prediction: "this product is amazing" → positive.
 
 ## Additional Projects
 
-Passive Income Shorts Bot
-A fully local, zero-cost daily generator for faceless YouTube Shorts in the personal finance & investing niche.
-## Passive Income Shorts Bot
-
+**Passive Income Shorts Bot**  
 A fully local, zero-cost daily generator for faceless YouTube Shorts in the personal finance & investing niche.
 
-**Folder**: [Folder: Folder: [PassiveIncomeBot](PassiveIncomeBot/) 
+**Folder**: [PassiveIncomeBot](PassiveIncomeBot/)  
 **Status**: Working (v1.0 – text frames + spiced visuals + natural voiceover)
 
-**Core features**
-- AI-generated scripts using deepseek-r1:32b (via Ollama)
-- Clean, big readable text overlays with dark cyber-finance aesthetic
-- Natural male voiceover (Microsoft edge-tts)
-- One-command manual run or fully automatic via Windows Task Scheduler
+**Core features**  
+- AI-generated scripts using deepseek-r1:32b (via Ollama)  
+- Clean, big readable text overlays with dark cyber-finance aesthetic  
+- Natural male voiceover (Microsoft edge-tts)  
+- One-command manual run or fully automatic via Windows Task Scheduler  
 
-**Tech stack**
-- Ollama + langchain-ollama
-- edge-tts (voice)
-- FFmpeg (video assembly)
-- Pillow (frame generation)
+**Tech stack**  
+- Ollama + langchain-ollama  
+- edge-tts (voice)  
+- FFmpeg (video assembly)  
+- Pillow (frame generation)  
 
-**Quick run (manual)**
+**Quick run (manual)**  
 ```powershell
 cd "C:\Users\along\Downloads\ComfyUI_windows_portable_nvidia\PassiveIncomeBot"
 python generate_daily_short.py
