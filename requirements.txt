@@ -1,0 +1,5 @@
+transformers==4.40.0
+torch==2.3.0+cu121
+datasets
+accelerate
+numpy<2
